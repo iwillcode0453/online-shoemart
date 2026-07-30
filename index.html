@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Website</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body>
+    <div>
+        <nav class="bg-slate-600 p-4 flex justify-between items-center">
+            <div class="font-lobster text-2xl text-slate-100">My Logo</div>
+            <ul class="flex justify-around space-x-16">
+                <li><a href="#" class="text-white hover:text-gray-200">Home</a></li>
+                <li><a href="#" class="text-white hover:text-gray-200">Products</a></li>
+                <li><a href="#" class="text-white hover:text-gray-200">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1 class="text-3xl text-center font-bold mt-6">Shoe Store Collection</h1>
+
+    <!-- Responsive Grid Container -->
+<div class="grid grid-cols-1 gap-6 p-6 sm:grid-cols-2 lg:grid-cols-4 bg-neutral-50">
+  
+  <!-- Card 1 -->
+  <div class="group flex h-full flex-col rounded-xl bg-white p-4 shadow-md border border-neutral-200 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl">
+    <!-- Shoe Image Container -->
+    <div class="overflow-hidden rounded-lg bg-neutral-100 aspect-square flex items-center justify-center mb-4 ">
+      <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Red Running Shoe" class="object-cover h-full w-full transition-transform duration-300 group-hover:scale-105" />
+    </div>
+    <!-- Card Info -->
+    <h3 class="text-lg font-bold text-neutral-800 mb-1">Speed Max Pro</h3>
+    <span class="text-sm text-neutral-500 mb-2">Running Shoes</span>
+    <p class="text-neutral-600 text-sm grow">Ultra-lightweight mesh upper with responsive foam cushioning for everyday runners.</p>
+    <!-- Price & Button -->
+    <div class="mt-4 flex items-center justify-between">
+      <span class="text-xl font-extrabold text-neutral-900">₱4,500</span>
+      <button class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors">Add to Cart</button>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="group flex h-full flex-col rounded-xl bg-white p-4 shadow-md border border-neutral-200 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl">
+    <div class="overflow-hidden rounded-lg bg-neutral-100 aspect-square flex items-center justify-center mb-4">
+      <img src="https://unsplash.com" alt="Colorful Sneaker" class="object-contain h-40 w-40 transition-transform duration-300 group-hover:scale-105" />
+    </div>
+    <h3 class="text-lg font-bold text-neutral-800 mb-1">Street Vibe Classic</h3>
+    <span class="text-sm text-neutral-500 mb-2">Retro Sneakers</span>
+    <p class="text-neutral-600 text-sm grow">Bold pastel colors and retro styling. Perfect for casual streetwear looks.</p>
+    <div class="mt-4 flex items-center justify-between">
+      <span class="text-xl font-extrabold text-neutral-900">₱5,200</span>
+      <button class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors">Add to Cart</button>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="group flex h-full flex-col rounded-xl bg-white p-4 shadow-md border border-neutral-200 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl">
+    <div class="overflow-hidden rounded-lg bg-neutral-100 aspect-square flex items-center justify-center mb-4">
+      <img src="https://unsplash.com" alt="Lime Green Sneaker" class="object-contain h-40 w-40 transition-transform duration-300 group-hover:scale-105" />
+    </div>
+    <h3 class="text-lg font-bold text-neutral-800 mb-1">Neon Volt Runner</h3>
+    <span class="text-sm text-neutral-500 mb-2">Athletic Shoes</span>
+    <p class="text-neutral-600 text-sm grow">Stand out on the track with breathable, high-visibility neon knit design.</p>
+    <div class="mt-4 flex items-center justify-between">
+      <span class="text-xl font-extrabold text-neutral-900">₱4,800</span>
+      <button class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors">Add to Cart</button>
+    </div>
+    </div>
+    <!-- Card 4 -->
+  <div class="group flex h-full flex-col rounded-xl bg-white p-4 shadow-md border border-neutral-200 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl">
+    <div class="overflow-hidden rounded-lg bg-neutral-100 aspect-square flex items-center justify-center mb-4">
+      <img src="https://unsplash.com" alt="White Sneaker" class="object-contain h-40 w-40 transition-transform duration-300 group-hover:scale-105" />
+    </div>
+    <h3 class="text-lg font-bold text-neutral-800 mb-1">Urban All-White</h3>
+    <span class="text-sm text-neutral-500 mb-2">Minimalist Minimal</span>
+    <p class="text-neutral-600 text-sm grow">Premium crisp white leather that goes well with literally any outfit choice.</p>
+    <div class="mt-4 flex items-center justify-between">
+      <span class="text-xl font-extrabold text-neutral-900">₱6,000</span>
+      <button class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors">Add to Cart</button>
+    </div>
+  </div>
+</body>
+</html>
