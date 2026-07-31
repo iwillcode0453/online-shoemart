@@ -7,16 +7,33 @@
     <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
-    <div>
-        <nav class="bg-slate-500 p-4 flex justify-between items-center">
-            <div class="font-lobster text-2xl text-slate-100">My Logo</div>
-            <ul class="flex justify-around space-x-16">
-                <li><a href="#" class="text-white hover:text-gray-200">Home</a></li>
-                <li><a href="#" class="text-white hover:text-gray-200">Products</a></li>
-                <li><a href="#" class="text-white hover:text-gray-200">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+   <header class="sticky top-0 z-50">
+    <nav class="border-b border-slate-800 bg-slate-900/90 backdrop-blur-lg">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+        <!-- Logo -->
+        <a href="#" class="text-xl font-bold text-white">
+          Online Shoemart
+        </a>
+        <!-- Navigation -->
+        <ul class="hidden gap-8 text-slate-300 md:flex">
+          <li>
+            <a href="#" class="transition hover:text-white">Home</a>
+          </li>
+          <li>
+            <a href="#" class="transition hover:text-white">Products</a>
+          </li>
+          <li>
+            <a href="#" class="transition hover:text-white">Contact</a>
+          </li>
+        </ul>
+        <!-- Call to Action -->
+         <a href="#" class="rounded-lg bg-white px-5 py-2 font-semibold text-slate-900 transition hover:bg-slate-200">
+          Shop Now
+        </a>
+        
+      </div>
+    </nav>
+   </header>>
     <h1 class="text-3xl text-center font-bold mt-6">Shoe Store Collection</h1>
 
     <!-- Responsive Grid Container -->
@@ -42,7 +59,7 @@
   <!-- Card 2 -->
   <div class="group flex h-full flex-col rounded-xl bg-white p-4 shadow-md border border-neutral-200 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl">
     <div class="overflow-hidden rounded-lg bg-neutral-100 aspect-square flex items-center justify-center mb-1">
-      <img src="./images/colorful-sneaker.jpg" alt="Colorful Sneaker" class="object-cover h-full w-full transition-transform duration-300 group-hover:scale-105" />
+      <img src="./assets/images/colorful-sneaker.jpg" alt="Colorful Sneaker" class="object-cover h-full w-full transition-transform duration-300 group-hover:scale-105" />
     </div>
     <p class="text-xs text-neutral-400 mt-2 text-center mb-1.5">
         Photo by <a href="https://unsplash.com/@rohit16dey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rohit Dey</a> on <a href="https://unsplash.com/photos/a-pair-of-sneakers-sitting-on-top-of-a-box-taLbnPZicW0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -59,7 +76,7 @@
   <!-- Card 3 -->
   <div class="group flex h-full flex-col rounded-xl bg-white p-4 shadow-md border border-neutral-200 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl">
     <div class="overflow-hidden rounded-lg bg-neutral-100 aspect-square flex items-center justify-center mb-1">
-      <img src="./images/lime-green-sneaker.jpg" alt="Lime Green Sneaker" class="object-cover h-full w-full transition-transform duration-300 group-hover:scale-105" />
+      <img src="./assets/images/lime-green-sneaker.jpg" alt="Lime Green Sneaker" class="object-cover h-full w-full transition-transform duration-300 group-hover:scale-105" />
     </div>
     <p class="text-xs text-neutral-400 mt-2 text-center mb-1.5">
         Photo by <a href="https://unsplash.com/@moonmoons_days?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Moon Moons</a> on <a href="https://unsplash.com/photos/green-and-white-nike-high-top-sneakers-u5NP0UO1rKo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -75,7 +92,7 @@
     <!-- Card 4 -->
   <div class="group flex h-full flex-col rounded-xl bg-white p-4 shadow-md border border-neutral-200 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl">
     <div class="overflow-hidden rounded-lg bg-neutral-100 aspect-square flex items-center justify-center mb-1">
-      <img src="./images/white-sneaker.jpg" alt="White Sneaker" class="object-cover h-full w-full transition-transform duration-300 group-hover:scale-105"/>
+      <img src="./assets/images/white-sneaker.jpg" alt="White Sneaker" class="object-cover h-full w-full transition-transform duration-300 group-hover:scale-105"/>
     </div>
     <p class="text-xs text-neutral-400 mt-2 text-center mb-1.5">
         Photo by <a href="https://unsplash.com/@jeff_tumale?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeff Tumale</a> on <a href="https://unsplash.com/photos/a-person-wearing-a-hat-SD9Jyl1xNQ4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
