@@ -14,8 +14,9 @@
         <a href="#" class="text-xl font-bold text-white">
           Online Shoemart
         </a>
-        <!-- Navigation -->
-        <ul class="hidden gap-8 text-slate-300 md:flex">
+
+        <!-- Desktop Menu -->
+        <ul class="hidden items-center gap-8 text-slate-300 md:flex">
           <li>
             <a href="#" class="transition hover:text-white">Home</a>
           </li>
@@ -26,18 +27,49 @@
             <a href="#" class="transition hover:text-white">Contact</a>
           </li>
         </ul>
-        <!-- Call to Action -->
+        <!-- Desktop Button CTA -->
          <a href="#" class="rounded-lg bg-white px-5 py-2 font-semibold text-slate-900 transition hover:bg-slate-200">
           Shop Now
         </a>
-        
+        <!-- End of Desktop Menu Section -->
+
+        <!-- Hamburger Button -->
+        <button id="menu-btn" class="flex flex-col md:hidden">
+          <span class="block h-0.5 w-6 bg-white mb-1"></span>
+          <span class="block h-0.5 w-6 bg-white mb-1"></span>
+          <span class="block h-0.5 w-6 bg-white"></span>
+        </button>
       </div>
+
+      <!-- Mobile Menu Section -->
+      <div id="mobile-menu" class="hidden border-t border-slate-800 px-6 py-5 md:hidden">
+        <ul class="flex flex-col gap-5 text-slate-300">
+          <li>
+            <a href="#" class="hover:text-white">Home</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-white">Products</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-white">Contact</a>
+          </li>
+          <li>
+            <a href="#" class="inline-block rounded-lg bg-white px-5 py-2 text-slate-900">
+              Shop Now
+            </a>
+          </li>
+
+        </ul>
+
+      </div> 
+      <!-- End of Mobile Menu Section -->
+
     </nav>
    </header>>
-    <h1 class="text-3xl text-center font-bold mt-6">Shoe Store Collection</h1>
+    
 
     <!-- Responsive Grid Container -->
-<div class="grid grid-cols-1 gap-6 p-6 sm:grid-cols-2 lg:grid-cols-4 bg-neutral-50">
+<div id="hero-section" class="grid grid-cols-1 gap-6 p-6 sm:grid-cols-2 lg:grid-cols-4 bg-neutral-50">
   
   <!-- Card 1 -->
   <div class="group flex h-full flex-col rounded-xl bg-white p-4 shadow-md border border-neutral-200 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl">
@@ -104,5 +136,17 @@
       <button class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors">Add to Cart</button>
     </div>
   </div>
+
+
+  <script>
+    // Get the menu button and mobile menu elements
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    // Toggle the mobile menu visibility when the button is clicked
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    })
+  </script>
 </body>
 </html>
