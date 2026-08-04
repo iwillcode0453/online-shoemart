@@ -44,7 +44,13 @@ Horizontal padding: px-6 lg:px-8
 Keeping these values consistent makes the whole site feel polished.
 
 */
+html {
+  scroll-behavior: smooth;
+}
 
+section[id] {
+  scroll-margin-top: 5rem;
+}
 /* 
 
 <header class="sticky top-0 z-50">
